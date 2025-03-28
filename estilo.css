@@ -1,0 +1,144 @@
+/*importamos las fuentes */
+ @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f6f6f6;
+} 
+
+/*seccion de inicio*/
+.inicio {
+    background: linear-gradient(to right, #4d4d59, #1d7735);
+    clip-path: polygon(0 0, 100% 0, 100% 71%, 47% 84%, 0% 71%);
+    height: 90vh;
+    padding: 0 50px;
+}
+
+.inicio.content {
+    max-width: 1100px;
+    margin: auto;
+    color: #fff;
+}
+.inicio header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.inicio .logo{
+    display: flex;
+    align-items: center;
+    color: #0f830c;
+    font-size: 28px;
+}
+.inicio .logo i {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+#inicio header nav a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+}
+#inicio header nav a:hover{
+    border-bottom: 2px solid #1d1d1c;
+}
+
+.inicio.redes a{
+    text-decoration: none;
+    color: #527f61;
+    display: inline-block;
+    margin-right:0 20px;
+}
+.inicio .redes a:hover{
+    color: #c4591a;
+}
+.inicio .fila{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.inicio .fila .col{
+    width: 50%;
+}
+.inicio .fila .col h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.inicio .fila .col p{
+    margin-bottom: 30px;
+}
+
+.inicio .fila .col .content-img{
+    max-width: 4000px;
+    margin: auto;
+}
+.inicio .fila .col .content-img img{
+    width: 500%;
+}
+.inicio .fila .col button{
+    background-color: #0f830c;
+    width: fit-content;
+    padding: 5px 40px;
+    border: 2px solid #403f3f;
+    color: #fff;
+    background:linear-gradient(to right, #0a2e0a, #92c511);
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.inicio .fila .col button:hover{
+    transform: scale(1.1);
+}
+#icono-nav{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    display: none;
+}
+#icono-nav:hover{
+    background-color: #5e665c;
+}
+.sombra{
+    filter:drop-shadow(0em 30px 20px #60816e);
+} 
+/* SECCION S E R V I C I O S */
+.servicios{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+    top: -170px;
+}
+.servicios .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.servicios .fila .col{
+    width: 30%;
+    text-align: center;
+}
+.servicios .fila .col .card{
+    border: 1px solid #5e665c;
+    height: 400px;
+}
